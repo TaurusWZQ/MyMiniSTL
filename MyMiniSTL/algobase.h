@@ -1,5 +1,5 @@
-﻿#ifndef MYTINYSTL_ALGOBASE_H_
-#define MYTINYSTL_ALGOBASE_H_
+﻿#ifndef __MYMINISTL_ALGOBASE_H__
+#define __MYMINISTL_ALGOBASE_H__
 
 // 这个头文件包含了 mystl 的基本算法
 
@@ -516,5 +516,5 @@ mismatch(InputIter1 first1, InputIter1 last1, InputIter2 first2, Compred comp)
 }
 
 } // namespace mystl
-#endif // !MYTINYSTL_ALGOBASE_H_
+#endif // !__MYMINISTL_ALGOBASE_H__
 

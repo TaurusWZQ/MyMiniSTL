@@ -1,5 +1,5 @@
-﻿#ifndef MYTINYSTL_ALGO_H_
-#define MYTINYSTL_ALGO_H_
+﻿#ifndef __MYMINISTL_ALGO_H__
+#define __MYMINISTL_ALGO_H__
 
 #ifdef _MSC_VER
 #pragma warning(push)
