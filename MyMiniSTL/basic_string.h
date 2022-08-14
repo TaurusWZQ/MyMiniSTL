@@ -1,5 +1,5 @@
-﻿#ifndef MYTINYSTL_BASIC_STRING_H_
-#define MYTINYSTL_BASIC_STRING_H_
+﻿#ifndef __MYMINISTL_BASIC_STRING_H__
+#define __MYMINISTL_BASIC_STRING_H__
 
 // 这个头文件包含一个模板类 basic_string
 // 用于表示字符串类型
@@ -2071,5 +2071,5 @@ struct hash<basic_string<CharType, CharTraits>>
 };
 
 } // namespace mystl
-#endif // !MYTINYSTL_BASIC_STRING_H_
+#endif // !__MYMINISTL_BASIC_STRING_H__
 

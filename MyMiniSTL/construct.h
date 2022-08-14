@@ -1,5 +1,5 @@
-﻿#ifndef MYTINYSTL_CONSTRUCT_H_
-#define MYTINYSTL_CONSTRUCT_H_
+﻿#ifndef __MYMINISTL_CONSTRUCT_H__
+#define __MYMINISTL_CONSTRUCT_H__
 
 // 这个头文件包含两个函数 construct，destroy
 // construct : 负责对象的构造
@@ -81,5 +81,5 @@ void destroy(ForwardIter first, ForwardIter last)
 #pragma warning(pop)
 #endif // _MSC_VER
 
-#endif // !MYTINYSTL_CONSTRUCT_H_
+#endif // !__MYMINISTL_CONSTRUCT_H__
 

@@ -1,5 +1,5 @@
-﻿#ifndef MYTINYSTL_DEQUE_H_
-#define MYTINYSTL_DEQUE_H_
+﻿#ifndef __MYMINISTL_DEQUE_H__
+#define __MYMINISTL_DEQUE_H__
 
 // 这个头文件包含了一个模板类 deque
 // deque: 双端队列
@@ -1422,5 +1422,5 @@ void swap(deque<T>& lhs, deque<T>& rhs)
 }
 
 } // namespace mystl
-#endif // !MYTINYSTL_DEQUE_H_
+#endif // !__MYMINISTL_DEQUE_H__
 
