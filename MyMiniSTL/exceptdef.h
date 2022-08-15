@@ -1,5 +1,5 @@
-#ifndef MYTINYSTL_EXCEPTDEF_H_
-#define MYTINYSTL_EXCEPTDEF_H_
+#ifndef __MYMINISTL_EXCEPTDEF_H__
+#define __MYMINISTL_EXCEPTDEF_H__
 
 #include <stdexcept>
 
@@ -22,5 +22,5 @@ namespace mystl
 
 } // namepsace mystl
 
-#endif // !MYTINYSTL_EXCEPTDEF_H_
+#endif // !__MYMINISTL_EXCEPTDEF_H__
 

@@ -1,7 +1,7 @@
-﻿#ifndef MYTINYSTL_FUNCTIONAL_H_
-#define MYTINYSTL_FUNCTIONAL_H_
+﻿#ifndef __MYMINISTL_FUNCTIONAL_H__
+#define __MYMINISTL_FUNCTIONAL_H__
 
-// 这个头文件包含了 mystl 的函数对象与哈希函数
+// 这个头文件包含了 mystl 的函数对象与哈希函数hash function
 
 #include <cstddef>
 
@@ -180,7 +180,7 @@ struct projectsecond :public binary_function<Arg1, Arg2, Arg1>
 };
 
 /*****************************************************************************************/
-// 哈希函数对象
+// 哈希函数对象hash function
 
 // 对于大部分类型，hash function 什么都不做
 template <class Key>
@@ -281,5 +281,5 @@ struct hash<long double>
 };
 
 } // namespace mystl
-#endif // !MYTINYSTL_FUNCTIONAL_H_
+#endif // !__MYMINISTL_FUNCTIONAL_H__
 
