@@ -1,5 +1,5 @@
-﻿#ifndef MYTINYSTL_LIST_H_
-#define MYTINYSTL_LIST_H_
+﻿#ifndef __MYMINISTL_LIST_H__
+#define __MYMINISTL_LIST_H__
 
 // 这个头文件包含了一个模板类 list
 // list : 双向链表
@@ -1206,5 +1206,5 @@ void swap(list<T>& lhs, list<T>& rhs) noexcept
 }
 
 } // namespace mystl
-#endif // !MYTINYSTL_LIST_H_
+#endif // !__MYMINISTL_LIST_H__
 

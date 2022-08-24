@@ -1,5 +1,5 @@
-﻿#ifndef MYTINYSTL_MAP_H_
-#define MYTINYSTL_MAP_H_
+﻿#ifndef __MYMINISTL_MAP_H__
+#define __MYMINISTL_MAP_H__
 
 // 这个头文件包含了两个模板类 map 和 multimap
 // map      : 映射，元素具有键值和实值，会根据键值大小自动排序，键值不允许重复
@@ -545,5 +545,5 @@ void swap(multimap<Key, T, Compare>& lhs, multimap<Key, T, Compare>& rhs) noexce
 }
 
 } // namespace mystl
-#endif // !MYTINYSTL_MAP_H_
+#endif // !__MYMINISTL_MAP_H__
 

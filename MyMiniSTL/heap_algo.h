@@ -1,5 +1,5 @@
-﻿#ifndef MYTINYSTL_HEAP_ALGO_H_
-#define MYTINYSTL_HEAP_ALGO_H_
+﻿#ifndef __MYMINISTL_HEAP_ALGO_H__
+#define __MYMINISTL_HEAP_ALGO_H__
 
 // 这个头文件包含 heap 的四个算法 : push_heap, pop_heap, sort_heap, make_heap
 
@@ -223,5 +223,5 @@ void make_heap(RandomIter first, RandomIter last, Compared comp)
 }
 
 } // namespace mystl
-#endif // !MYTINYSTL_HEAP_ALGO_H_
+#endif // !__MYMINISTL_HEAP_ALGO_H__
 
