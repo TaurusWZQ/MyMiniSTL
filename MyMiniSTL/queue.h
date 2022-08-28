@@ -1,5 +1,5 @@
-﻿#ifndef MYTINYSTL_QUEUE_H_
-#define MYTINYSTL_QUEUE_H_
+﻿#ifndef __MYMINISTL_QUEUE_H__
+#define __MYMINISTL_QUEUE_H__
 
 // 这个头文件包含了两个模板类 queue 和 priority_queue
 // queue          : 队列
@@ -360,5 +360,5 @@ void swap(priority_queue<T, Container, Compare>& lhs,
 }
 
 } // namespace mystl
-#endif // !MYTINYSTL_QUEUE_H_
+#endif // !__MYMINISTL_QUEUE_H__
 

@@ -1,5 +1,5 @@
-﻿#ifndef MYTINYSTL_NUMERIC_H_
-#define MYTINYSTL_NUMERIC_H_
+﻿#ifndef __MYMINISTL_NUMERIC_H__
+#define __MYMINISTL_NUMERIC_H__
 
 // 这个头文件包含了 mystl 的数值算法
 
@@ -151,5 +151,5 @@ OutputIter partial_sum(InputIter first, InputIter last, OutputIter result,
 }
 
 } // namespace mystl
-#endif // !MYTINYSTL_NUMERIC_H_
+#endif // !__MYMINISTL_NUMERIC_H__
 
