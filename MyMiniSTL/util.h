@@ -1,5 +1,5 @@
-﻿#ifndef MYTINYSTL_UTIL_H_
-#define MYTINYSTL_UTIL_H_
+﻿#ifndef __MYMINISTL_UTIL_H__
+#define __MYMINISTL_UTIL_H__
 
 // 这个文件包含一些通用工具，包括 move, forward, swap 等函数，以及 pair 等 
 
@@ -293,5 +293,5 @@ pair<Ty1, Ty2> make_pair(Ty1&& first, Ty2&& second)
 
 }
 
-#endif // !MYTINYSTL_UTIL_H_
+#endif // !__MYMINISTL_UTIL_H__
 

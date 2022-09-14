@@ -1,5 +1,5 @@
-﻿#ifndef MYTINYSTL_STACK_H_
-#define MYTINYSTL_STACK_H_
+﻿#ifndef __MYMINISTL_STACK_H__
+#define __MYMINISTL_STACK_H__
 
 // 这个头文件包含了一个模板类 stack
 // stack : 栈
@@ -169,5 +169,5 @@ void swap(stack<T, Container>& lhs, stack<T, Container>& rhs) noexcept(noexcept(
 }
 
 } // namespace mystl
-#endif // !MYTINYSTL_STACK_H_
+#endif // !__MYMINISTL_STACK_H__
 

@@ -1,5 +1,5 @@
-﻿#ifndef MYTINYSTL_TYPE_TRAITS_H_
-#define MYTINYSTL_TYPE_TRAITS_H_
+﻿#ifndef __MYMINISTL_TYPE_TRAITS_H__
+#define __MYMINISTL_TYPE_TRAITS_H__
 
 // 这个头文件用于提取类型信息
 
@@ -41,5 +41,5 @@ struct is_pair<mystl::pair<T1, T2>> : mystl::m_true_type {};
 
 } // namespace mystl
 
-#endif // !MYTINYSTL_TYPE_TRAITS_H_
+#endif // !__MYMINISTL_TYPE_TRAITS_H__
 

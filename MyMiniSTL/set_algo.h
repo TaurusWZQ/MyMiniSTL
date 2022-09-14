@@ -1,5 +1,5 @@
-﻿#ifndef MYTINYSTL_SET_ALGO_H_
-#define MYTINYSTL_SET_ALGO_H_
+﻿#ifndef __MYMINISTL_SET_ALGO_H__
+#define __MYMINISTL_SET_ALGO_H__
 
 // 这个头文件包含 set 的四种算法: union, intersection, difference, symmetric_difference
 // 所有函数都要求序列有序
@@ -249,5 +249,5 @@ OutputIter set_symmetric_difference(InputIter1 first1, InputIter1 last1,
 }
 
 } // namespace mystl
-#endif // !MYTINYSTL_SET_ALGO_H_
+#endif // !__MYMINISTL_SET_ALGO_H__
 

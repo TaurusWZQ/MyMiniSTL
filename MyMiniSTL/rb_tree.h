@@ -1,5 +1,5 @@
-﻿#ifndef MYTINYSTL_RB_TREE_H_
-#define MYTINYSTL_RB_TREE_H_
+﻿#ifndef __MYMINISTL_RB_TREE_H__
+#define __MYMINISTL_RB_TREE_H__
 
 // 这个头文件包含一个模板类 rb_tree
 // rb_tree : 红黑树
@@ -1734,5 +1734,5 @@ void swap(rb_tree<T, Compare>& lhs, rb_tree<T, Compare>& rhs) noexcept
 }
 
 } // namespace mystl
-#endif // !MYTINYSTL_RB_TREE_H_
+#endif // !__MYMINISTL_RB_TREE_H__
 

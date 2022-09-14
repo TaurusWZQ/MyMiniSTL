@@ -1,5 +1,5 @@
-﻿#ifndef MYTINYSTL_UNORDERED_MAP_H_
-#define MYTINYSTL_UNORDERED_MAP_H_
+﻿#ifndef __MYMINISTL_UNORDERED_MAP_H__
+#define __MYMINISTL_UNORDERED_MAP_H__
 
 // 这个头文件包含两个模板类 unordered_map 和 unordered_multimap
 // 功能与用法与 map 和 multimap 类似，不同的是使用 hashtable 作为底层实现机制，容器内的元素不会自动排序
@@ -559,5 +559,5 @@ void swap(unordered_multimap<Key, T, Hash, KeyEqual>& lhs,
 }
 
 } // namespace mystl
-#endif // !MYTINYSTL_UNORDERED_MAP_H_
+#endif // !__MYMINISTL_UNORDERED_MAP_H__
 

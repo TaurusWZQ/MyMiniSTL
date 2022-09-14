@@ -1,5 +1,5 @@
-﻿#ifndef MYTINYSTL_SET_H_
-#define MYTINYSTL_SET_H_
+﻿#ifndef __MYMINISTL_SET_H__
+#define __MYMINISTL_SET_H__
 
 // 这个头文件包含两个模板类 set 和 multiset
 // set      : 集合，键值即实值，集合内元素会自动排序，键值不允许重复
@@ -473,5 +473,5 @@ void swap(multiset<Key, Compare>& lhs, multiset<Key, Compare>& rhs) noexcept
 }
 
 } // namespace mystl
-#endif // !MYTINYSTL_SET_H_
+#endif // !__MYMINISTL_SET_H__
 
